@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,400;0,500;1,400&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+.container {
+    align-items: center;
+    background-color: blue;
+}
+.cardcontent {
+    /* background-color: aqua; */
+    border: 1px solid #000;
+}
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    background-color:#CE6D4A;
+    height:60px;
+    padding:20px 20px 10px 0
+}
+.status {
+    color: #fff;
+    justify-content: center;
+}
+.ddd {
+    background-color: #4AA12C; 
+    margin-right: 1rem;
+}
+.aaa {
+    background-color: #BF9F33;
+    margin-right: 1rem;
+}
+.ccc {
+    background-color: #2C3F64;
+}
+
+button {
+    border-radius: 5px;
+    color: #fff;
+    padding:10px;
+    
+}
+.content-header {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.content-layout {
+    flex-direction: row;
+    /* background-color:#BF9F33; */
+    display:flex;
+    justify-content: space-around;
+}
+.leader-agency {
+    flex-grow:1;
+    margin-left:50px;
+    /* background-color:azure */
+}
+.staff-info {
+    /* background-color: #4AA12C; */
+    flex-grow: 1;
+
+}

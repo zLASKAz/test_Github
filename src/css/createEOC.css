@@ -1,0 +1,105 @@
+
+.buttonAddEOC {
+    padding: 20px;
+    border: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #000000;
+}
+.container {
+    background-color: yellow;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.buttonlayout {
+    background-color: aqua;
+    padding: 10px;
+}
+.BoxStyle {
+    width: 80%;
+    margin:auto;
+    background-color: #fff;
+    padding: "20px 40px 80px 40px"
+}
+.data {
+    padding: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.datacontainer {
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.dataleft {
+    /* background-color: aqua; */
+    flex-direction: column;
+    flex:1;
+}
+.dataright {
+    /* background-color: blue; */
+    flex-direction: column;
+    flex: 1;
+}
+.dateInput {
+    width:40%;
+    padding: 5px
+}
+.btncontainer {
+    display:flex;
+    justify-content: flex-end;
+    padding: 25px;
+}
+.btnopenEOC {
+    background-color: #4AA12C;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 15%;
+    margin-top:auto;
+}
+.btncancel {
+    background-color: #2C3F64;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 50px;
+    width: 10%;
+    margin-top:auto;
+}
+.activityContentContainer {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+.activityTitle {
+    width: 10%;
+    /* background-color:#2C3F64; */
+}
+.activityInput {
+    width: 85%;
+    /* background-color: aqua; */
+}
+.ActivityNameInput {
+    width: 100%;
+}
+.ActivityDateInput {
+    padding: 10px
+}
+.btnAddActivity {
+    background-color: #4AA12C; 
+    margin-right: 1rem;
+}
+.btnCancelActivity {
+    background-color: #2C3F64;
+}
+input[type="file"] {
+    display: none;
+}
